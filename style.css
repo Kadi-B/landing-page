@@ -1,0 +1,250 @@
+  
+        *{
+            padding: 0%;
+            margin: 0%;
+            }
+       header{
+                font-family: Arial, sans-serif;
+                background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+                color: #333;
+            }
+        .logo{
+            color: #3b3f75;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        /*---nav link--*/
+        nav{
+            display: flex;
+            justify-content: space-between;
+           align-items: center;
+           padding: 1em;
+          
+        }  
+        ul{
+            display: flex;
+            gap: 1em;
+            
+        }
+        ul > li{
+            list-style: none;
+          
+        }  
+        /*--- for nav ul li and login class---*/
+        
+        ul > li > a, .login{
+            color: #3b3f75;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover{
+            color: white;
+        }
+        /*---end of nav link--*/
+
+        /*---buttons with the nav link---*/
+        .logobutton{
+          display: flex;
+        }
+        
+        
+        .buttonhiring{
+            text-decoration: none;
+            Background-color: #ff6b6b;
+            color: white;
+            Padding: 0px 0px;
+            border-radius: 0.4em;
+            }
+        .getstarted{
+          background-color: #3dd5a5;
+          padding: 10px;
+          border-radius: 8px;
+          color: white;
+          text-decoration: none;
+        }
+        /*---section----*/
+        #hero {
+            text-align: center;
+            margin-top: 80px;
+        }
+        #hero h1{
+            font-size: 48px;
+            color: #3b3f75;
+            margin-bottom: 20px;
+        }
+        #hero p{
+                color: #888;
+                font-size: 18px;
+                width: 60%;
+                margin: 0 auto;
+                line-height: 1.6;
+        }
+        .hero-buttons{
+            margin-top: 20px;
+            padding: 50px;
+        }
+        .hero-buttons .button{                                                  
+            padding: 15px 30px;
+           margin: 0px 10px; 
+           font-size: 16px;
+           font-weight: bold;
+           border-radius: 25px;
+           text-decoration: none;                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+        } 
+        /*-- hero section and more section button--*/
+        .hero-buttons > .button.primary, .btn{
+            background-color: #3dd5a5;
+            color: white;  
+            border-radius: 0.4em;   
+        }   
+        /*-- both btns together ends here--*/
+
+        .hero-buttons > .button.secondary {
+            background-color: #ff6b6b;
+            color: white;
+            border-radius: 0.4em;
+        }  
+        /*---end of section---*/    
+        
+        /*---partner logo---*/
+        
+           .partnerslogo{
+            margin: 30px 50px;
+            display: flex;
+           
+        }
+        #partners {
+            text-align: center;
+            padding: 30px 0;
+            background-color: #fff;    
+        }
+        .partnerslogo img{
+            margin: 0 10px;
+            width: 100%;    
+        }
+        /*---end of partners logo---*/
+        
+
+        /*---more info section ----*/
+
+        #more h1, #feature h1{
+            font-size: 50px;
+            color: #3b3f75;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .morego p{
+            color: #888;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .morego h2{
+            font-size: 38px;
+            color: #3b3f75;
+            font-weight: bold;
+        }
+        /*---the part that will arrange the h, p and v---*/
+        .moreabout{
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           
+         
+        }
+        .moreinfo{
+            flex-basis: 50%;
+            min-width: 300px;
+        }
+        .moreinfo video{
+            max-width: 100%;
+            padding: 50px 0;
+            
+        }
+        .btn{
+            padding: 10px 20px;
+            margin-top: 30px; 
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block; 
+        }
+        /*---enf of more info section--*/
+      
+        .imagebox{
+                   
+            align-items:left;
+             display: left;
+           
+        }
+        .featurerow{
+            margin-top: 5%;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .featurecol{
+            padding: 20px 12px;
+            margin-bottom: 5%;
+            display: flex;
+            box-sizing: border-box;
+            border-radius: 10px;
+           flex-basis: 30%;
+            background: #eee4e4;
+            transition: 0.5s;
+        }
+        .featurecol:hover{
+            box-shadow: 0 0 20px 0px rgba(0,0,0,02)
+        }
+        h3{
+            color: #3b3f75;
+            font-weight: bold;
+         }
+         p{
+            color: #9697b1;
+         }
+         h4{         
+            color: #489194;
+            }
+
+
+        /*---reserve space for the blue part I haven't done--/
+        
+        
+        /*--end of reserve space---*/
+
+        /*----categore (how it work)----*/
+       
+        footer{
+            padding:12px;
+            background: rgb(7, 7, 32);
+            
+            
+            }
+            
+        .footer-link {
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            width:90%;
+            margin:auto;
+            text-align:center;
+            padding-top:8px;
+            }
+        .link a, .privacy a{
+            color:white;
+            font-size:13px;
+            display:flex;
+            flex-direction:cloumn;
+            width:100%;
+            margin:auto;
+            text-decoration: none;
+            }
+           .link a, .privacy a:hover {
+            color: red;
+        }
+            
+            
+            
+           
