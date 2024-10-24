@@ -155,6 +155,7 @@
         .moreinfo{
             flex-basis: 50%;
             min-width: 300px;
+            
         }
         .moreinfo video{
             max-width: 100%;
