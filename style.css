@@ -1,13 +1,13 @@
-  
-        *{
+        *{  
             padding: 0%;
             margin: 0%;
             }
-       header{
+        header{
                 font-family: Arial, sans-serif;
                 background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
                 color: #333;
             }
+        
         .logo{
             color: #3b3f75;
             font-size: 28px;
@@ -17,9 +17,9 @@
         nav{
             display: flex;
             justify-content: space-between;
-           align-items: center;
-           padding: 1em;
-          
+            align-items: center;
+            padding: 1em;
+        
         }  
         ul{
             display: flex;
@@ -28,7 +28,7 @@
         }
         ul > li{
             list-style: none;
-          
+        
         }  
         /*--- for nav ul li and login class---*/
         
@@ -45,7 +45,7 @@
 
         /*---buttons with the nav link---*/
         .logobutton{
-          display: flex;
+        display: flex;
         }
         
         
@@ -55,13 +55,13 @@
             color: white;
             Padding: 0px 0px;
             border-radius: 0.4em;
-            }
+        }
         .getstarted{
-          background-color: #3dd5a5;
-          padding: 10px;
-          border-radius: 8px;
-          color: white;
-          text-decoration: none;
+        background-color: #3dd5a5;
+        padding: 10px;
+        border-radius: 8px;
+        color: white;
+        text-decoration: none;
         }
         /*---section----*/
         #hero {
@@ -86,11 +86,11 @@
         }
         .hero-buttons .button{                                                  
             padding: 15px 30px;
-           margin: 0px 10px; 
-           font-size: 16px;
-           font-weight: bold;
-           border-radius: 25px;
-           text-decoration: none;                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+            margin: 0px 10px; 
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 25px;
+            text-decoration: none;                                                                                                                                                                                                                                                                                                                                                                                                                                                      
         } 
         /*-- hero section and more section button--*/
         .hero-buttons > .button.primary, .btn{
@@ -109,10 +109,10 @@
         
         /*---partner logo---*/
         
-           .partnerslogo{
+        .partnerslogo{
             margin: 30px 50px;
             display: flex;
-           
+        
         }
         #partners {
             text-align: center;
@@ -147,11 +147,10 @@
         }
         /*---the part that will arrange the h, p and v---*/
         .moreabout{
-           display: flex;
-           justify-content: space-between;
-           align-items: center;
-           
-         
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
         }
         .moreinfo{
             flex-basis: 50%;
@@ -171,12 +170,11 @@
             display: inline-block; 
         }
         /*---enf of more info section--*/
-      
+    
         .imagebox{
-                   
             align-items:left;
-             display: left;
-           
+            display: left;
+        
         }
         .featurerow{
             margin-top: 5%;
@@ -190,7 +188,7 @@
             display: flex;
             box-sizing: border-box;
             border-radius: 10px;
-           flex-basis: 30%;
+            flex-basis: 30%;
             background: #eee4e4;
             transition: 0.5s;
         }
@@ -200,11 +198,11 @@
         h3{
             color: #3b3f75;
             font-weight: bold;
-         }
-         p{
+        }
+        p{
             color: #9697b1;
-         }
-         h4{         
+    }
+        h4{         
             color: #489194;
             }
 
@@ -215,7 +213,6 @@
         /*--end of reserve space---*/
 
         /*----categore (how it work)----*/
-       
         footer{
             padding:12px;
             background: rgb(7, 7, 32);
@@ -241,10 +238,55 @@
             margin:auto;
             text-decoration: none;
             }
-           .link a, .privacy a:hover {
+        .link a, .privacy a:hover {
             color: red;
         }
+        @media screen and (max-width: 395px){
+        
+            .getstarted{
+                background-color: #3dd5a5;
+                padding: 10px;
+                border-radius: 8px;
+                color: white;
+                text-decoration: no;
+                }  
+            .hero-buttons{
+                display: flex;
+            }
+        
+            
+
+            #partners {
+                text-align: center;
+                padding: 30px 0;
+                background-color: #fff; 
+                width: 40%;  
+            }
+        
+            .moreabout{
+                
+                flex-direction: column-reverse;
+            }
+            .moreinfo{
+                flex-basis: 50%;
+                min-width: 300px;
+            }
+            .moreinfo video{
+                max-width: 80%;
+                padding: 10px 20px;  
+            }
+            .btn{
+                text-align: center;
+            }
+            .featurerow{
+                margin-top: 5%;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column-reverse;
+                
+            }
             
             
-            
-           
+
+    
+        }        
